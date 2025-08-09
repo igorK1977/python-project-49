@@ -14,5 +14,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/igorK1977/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/igorK1977/python-project-49/actions)
 
-### How to play the game
-[![asciicast](https://asciinema.org/a/NEiY0RAYgaF9QMEwTUWscx9Wh.svg)](https://asciinema.org/a/NEiY0RAYgaF9QMEwTUWscx9Wh)
+### How to play the game brain-even
+[![asciicast](https://asciinema.org/a/PSCViIlcTqIAh3gXxVD615ABz.svg)](https://asciinema.org/a/PSCViIlcTqIAh3gXxVD615ABz)
+
+### How to play the game brain-calc
+[![asciicast](https://asciinema.org/a/Ybkv5uH0Z7ZbETU70a9qhF0pV.svg)](https://asciinema.org/a/Ybkv5uH0Z7ZbETU70a9qhF0pV)
