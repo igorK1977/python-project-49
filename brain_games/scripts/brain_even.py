@@ -2,7 +2,6 @@ from brain_games.games.even import game_play
 
 
 def main():
-    print('game_play script even')
     game_play()
 
 
