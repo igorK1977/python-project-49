@@ -13,7 +13,7 @@ def game_play():
     data = []
     data.append('Find the greatest common divisor of given numbers.')
     questions = []
-    for question_number in range(3):
+    for _ in range(3):
         number_1 = randint(1, 10)
         number_2 = randint(1, 10)
         question = []

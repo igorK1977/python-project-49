@@ -17,7 +17,7 @@ def game_play():
     data = []
     data.append('What number is missing in the progression?')
     questions = []
-    for question_number in range(3):
+    for _ in range(3):
         progression = create_progression()
         task = ' '.join(progression)
         hidden_item = randint(1, len(progression)) - 1

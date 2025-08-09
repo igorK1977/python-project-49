@@ -7,7 +7,7 @@ def game_play():
     data = []
     data.append('Answer "yes" if the number is even, otherwise answer "no".')
     questions = []
-    for question_number in range(3):
+    for _ in range(3):
         number = randint(1, 100)
         question = []
         question.append(f'Question: {number}')

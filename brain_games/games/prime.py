@@ -18,7 +18,7 @@ def game_play():
     data = []
     data.append('Answer "yes" if given number is prime. Otherwise answer "no".')
     questions = []
-    for question_number in range(3):
+    for _ in range(3):
         number = randint(1, 20)
         question = []
         question.append(f'Question: {number}')
