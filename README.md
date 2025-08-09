@@ -25,3 +25,6 @@
 
 ### How to play the game brain-progression
 [![asciicast](https://asciinema.org/a/1r3QbPkqJ5ZZmJsF2EauJ8txK.svg)](https://asciinema.org/a/1r3QbPkqJ5ZZmJsF2EauJ8txK)
+
+### How to play the game brain-prime
+[![asciicast](https://asciinema.org/a/U58k2qYPYLitDihgRpUoydaSu.svg)](https://asciinema.org/a/U58k2qYPYLitDihgRpUoydaSu)
