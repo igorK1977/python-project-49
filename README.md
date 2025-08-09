@@ -13,3 +13,6 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/igorK1977/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/igorK1977/python-project-49/actions)
+
+### How to play the game
+[![asciicast](https://asciinema.org/a/NEiY0RAYgaF9QMEwTUWscx9Wh.svg)](https://asciinema.org/a/NEiY0RAYgaF9QMEwTUWscx9Wh)
