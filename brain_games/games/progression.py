@@ -21,7 +21,7 @@ def game_play():
         progression = create_progression()
         task = ' '.join(progression)
         hidden_item = randint(1, len(progression)) - 1
-        task = task.replace(progression[hidden_item], '..')
+        task = task.replace(' ' + progression[hidden_item] + ' ', ' .. ')
         question = []
         question.append(f'Question: {task}')
         question.append(progression[hidden_item])               
