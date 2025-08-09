@@ -22,3 +22,6 @@
 
 ### How to play the game brain-gcd
 [![asciicast](https://asciinema.org/a/k5FamWjlNuAMRpnh0CXHMOzjG.svg)](https://asciinema.org/a/k5FamWjlNuAMRpnh0CXHMOzjG)
+
+### How to play the game brain-progression
+[![asciicast](https://asciinema.org/a/1r3QbPkqJ5ZZmJsF2EauJ8txK.svg)](https://asciinema.org/a/1r3QbPkqJ5ZZmJsF2EauJ8txK)
