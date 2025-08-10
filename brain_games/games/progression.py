@@ -1,30 +1,54 @@
 from random import randint
 
-from brain_games.games.common import game_start
+from brain_games.games.common import NUMBER_OF_QUESTIONS, game_start
 
 
 def create_progression():
+    """
+    Creates an arithmetic progression based on progression constants.
+
+    Returns:
+        list: progression elements in str format.
+    """
+    # Progression constants
+    MIN_LENGTH = 5
+    MAX_LENGTH = 10
+    MIN_STEP = 1
+    MAX_STEP = 10
+    MIN_START = 1
+    MAX_START = 10
+    
+    # Defining progression parameters
+    progression_length = randint(MIN_LENGTH, MAX_LENGTH)
+    progression_step = randint(MIN_STEP, MAX_STEP)
+    progression_start = randint(MIN_START, MAX_START)
+
+    # Make result
     result = []
-    progression_length = randint(5, 10)
-    progression_step = randint(2, 10)
-    progression_start = randint(1, 7)
     for index in range(progression_length):
         result.append(str(progression_start + index * progression_step))
     return result
 
 
 def game_play():
-    data = []
-    data.append('What number is missing in the progression?')
+    """
+    Defining game_task and questions for game
+
+    Launching the game engine with parameters:
+        str : game_task
+        list: elements consist of the text question and the correct answer.
+    """
+    # Defining game parameters
+    game_task = 'What number is missing in the progression?'
     questions = []
-    for _ in range(3):
+    for _ in range(NUMBER_OF_QUESTIONS):
         progression = create_progression()
-        task = ' '.join(progression)
-        hidden_item = randint(1, len(progression)) - 1
-        task = task.replace(' ' + progression[hidden_item] + ' ', ' .. ')
-        question = []
-        question.append(f'Question: {task}')
-        question.append(progression[hidden_item])               
+        hidden_item_number = randint(1, len(progression)) - 1
+        correct_answer = progression[hidden_item_number]
+        progression[hidden_item_number] = '..'
+        question_text = f'Question: {' '.join(progression)}'
+        question = [question_text, correct_answer]            
         questions.append(question)
-    data.append(questions)
-    game_start(data)
+
+    # Launching the game engine
+    game_start(game_task, questions)
